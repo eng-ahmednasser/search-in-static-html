@@ -1,6 +1,8 @@
+//send pagename like 'about-us' 
+//can send id tag to scroll to any section 'about-us#ID' 
 function getLink(pageName = ''){
-	const veyronUrl = 'http://localhost/datum/Veyron-2/';
-	return veyronUrl + pageName ;
+	const siteUrl = 'http://localhost/datum/Veyron-2/';
+	return siteUrl + pageName ;
 }
 
 var searchIndex = [
