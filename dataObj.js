@@ -1,7 +1,7 @@
 //send pagename like 'about-us' 
 //can send id tag to scroll to any section 'about-us#ID' 
 function getLink(pageName = ''){
-	const siteUrl = 'http://localhost/datum/Veyron-2/';
+	const siteUrl = 'http://example.com';
 	return siteUrl + pageName ;
 }
 
